@@ -2,7 +2,6 @@
 //Descripción: Este componente es un contenedor para mostrar una sección de productos filtrados por plataforma. Organiza un slider horizontal con juegos de una plataforma específica (PlayStation, Xbox, Switch).
 import React from 'react';
 import Button from '../ui/Button';
-
 const PlatformSlider = ({ title, products, onNext, onPrevious, canGoNext, canGoPrevious, children }) => {
   return (
     <div className="platform-slider">

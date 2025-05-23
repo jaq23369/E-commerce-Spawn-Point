@@ -1,8 +1,5 @@
-// Navigation.jsx
 //Componente: Navigation
- 
 //Descripción: Este componente contiene los enlaces de navegación principal de la aplicación. Incluye los botones para filtrar por plataforma y acceder a diferentes secciones.
- 
 import React from 'react';
 import Button from '../ui/Button';
 const Navigation = ({ activeRoute, onNavigate }) => {

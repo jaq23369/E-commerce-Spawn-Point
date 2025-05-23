@@ -1,11 +1,5 @@
-// CartSummary.jsx
-/*
- * Componente: CartSummary
- * 
- * Descripción:
- * Este componente muestra el resumen del carrito con subtotal y total a pagar.
- * También muestra mensajes de error si el total excede el límite permitido.
- */
+//Componente: CartSummary 
+//Descripción: Este componente muestra el resumen del carrito con subtotal y total a pagar. También muestra mensajes de error si el total excede el límite permitido.
 import React from 'react';
 import Button from '../ui/Button';
 const CartSummary = ({ subtotal, total, hasError, onPay, onEmptyCart }) => {

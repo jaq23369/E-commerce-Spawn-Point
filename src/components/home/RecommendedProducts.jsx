@@ -1,4 +1,3 @@
-
 //Componente: RecommendedProducts
 //Descripción: Este componente muestra productos recomendados basados en el historial de navegación.
 import React from 'react';
